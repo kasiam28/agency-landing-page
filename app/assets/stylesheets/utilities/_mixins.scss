@@ -1,0 +1,9 @@
+@mixin sizing($args) {
+  @if length($args) == 2 {
+    height: nth($args, 2);
+    width: nth($args, 1);
+  } @else {
+    height: $args;
+    width: $args;
+  }
+}

@@ -1,4 +1,9 @@
-@import 'settings/_color-variables';
+@import 'font-awesome';
+
+@import 'utilities/mixins';
+
+@import 'settings/color-variables';
+@import 'settings/breakpoint-variables';
 
 @import 'controllers/home';
 
